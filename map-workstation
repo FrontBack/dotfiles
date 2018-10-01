@@ -3,6 +3,4 @@
 # Syntax: Each line must have a symlink, and origin and dest must be separated
 # by two spaces.
 
-ssh/config  ~/.ssh/config
-
 terminator  ~/.config/terminator
