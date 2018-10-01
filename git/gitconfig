@@ -1,12 +1,9 @@
 [user]
-    name = Pietro Albini
-    email = pietro@pietroalbini.org
-    signingkey = 6F58BCDA
+    name = FrontBack
+    email = ndido98@gmail.com
 [core]
     excludesfile = ~/.gitignore
     editor = vim
-[commit]
-    gpgsign = true
 [push]
     default = simple
 [alias]
@@ -21,16 +18,3 @@
 [url "git@gitlab.com:"]
     # A pretty alias
     insteadof = "gitlab:"
-
-# Specific configuration for code.ubuntu-it.org
-[url "git@code.ubuntu-it.org:"]
-    # A pretty alias
-    insteadof = "uit:"
-
-# Specific configuration for my personal git server
-[url "git@git.me.pietroalbini.org:"]
-    # A pretty alias
-    insteadof = "me:"
-
-[gpg]
-	program = gpg2
